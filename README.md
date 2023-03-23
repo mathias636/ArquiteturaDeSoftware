@@ -106,6 +106,7 @@ public void insertion(int[] v) {
     v[i+1]=temp;
     }
     }
+```
 ---
 4) Utilize o pattern composite para simular um carrinho de compras
 de uma loja virtual. Deve-se obter o preço total da compra, sendo
