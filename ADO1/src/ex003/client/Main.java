@@ -9,7 +9,9 @@ import ex003.strategy.Selection;
 
 public class Main {
     public static void main(String[] args) {
+        
         int[] v = { 3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5 };
+
         Ordernar inserstion = new Ordernar(new Insertion());
         Ordernar selection = new Ordernar(new Selection());
         Ordernar bubble = new Ordernar(new Bubble());

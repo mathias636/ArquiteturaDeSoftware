@@ -5,9 +5,9 @@ import java.util.List;
 public class Orcamento {
 
     private final List<Double> valores;
-    private final Imposto imposto;
+    private final Strategy imposto;
 
-    public Orcamento(List<Double> valores, Imposto imposto) {
+    public Orcamento(List<Double> valores, Strategy imposto) {
         this.valores = valores;
         this.imposto = imposto;
     }

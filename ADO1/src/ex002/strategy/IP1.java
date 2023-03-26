@@ -1,6 +1,6 @@
 package strategy;
 
-public class IP1 implements Imposto {
+public class IP1 implements Strategy {
 
     @Override
     public double calcular(double orcamento) {

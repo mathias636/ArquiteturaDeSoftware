@@ -1,6 +1,6 @@
 package strategy;
 
-public interface Imposto {
+public interface Strategy {
 
   public double calcular(double total);
   
