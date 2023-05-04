@@ -1,0 +1,7 @@
+cliente\ProjetoJogo.class
+state\Estado.class
+state\Esperando.class
+state\Abaixando.class
+state\Pulando.class
+state\Personagem.class
+state\Correndo.class
